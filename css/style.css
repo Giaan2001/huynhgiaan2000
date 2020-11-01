@@ -1,0 +1,512 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+	width:100%;
+	height: 5000px;
+	background-color:black;
+	position:relative;
+}
+.header{
+	width:100%;
+	height: 800px;
+	background-color:green;
+	float:left;
+}
+.logo{
+	width:25%;
+	height: 100px;
+	background-color:black;
+	float:left;
+	z-index: 20;
+	position: absolute;
+}
+.logo b{
+	color:white;
+	text-align: center;
+	font-size:50px;
+	line-height:100px;
+	margin-left:100px;
+	letter-spacing: 10px;
+}
+.menu{
+	width:75%;
+	height: 100px;
+	background-color:black;
+	float:right;
+	text-align: center;
+	z-index: 20;
+	position: absolute;
+	margin-left:25%;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+	height:100px;
+	float:right;
+	line-height: 95px;
+	margin-right:100px;
+}
+.menu ul li{
+	width:150px;
+	height: 100px;
+	display: inline-block;
+	text-align: center;
+	list-style:none;
+	position:relative;
+	transition: 0.5s;
+	color:black;
+}
+.menu ul li:hover{
+	color:white;
+	background-color:orange;
+}
+.menu ul li:hover a{
+	color:white;
+}
+.menu ul li a{
+	color:white;
+	font-size:25px;
+	display:block;
+	text-decoration: none;
+	transition: 0.5s;
+	
+}
+.menu ul li ul{
+	display:none;
+	position:absolute;
+	background-color:black;
+	height: 300px;
+	transition: 0.5s;
+}
+.menu ul li:hover ul{
+	display:block;
+	background-color:orange;
+
+}
+.menu ul li ul li{
+	width:150px;
+	transition: 0.5s;
+}
+.menu ul li ul li:hover{
+	background-color:darkgoldenrod;
+}
+.banner{
+	width:100%;
+	height: 1200px;
+	background:url(../img/ali-yahya-7_AZi5Fe-rU-unsplash.jpg);
+	background-size:cover;
+	float:left;
+	position: relative;
+}
+.overlay{
+	width:100%;
+	height: 1200px;
+	background-color:black;
+	position:absolute;
+	opacity: .2;
+	top:0;
+	z-index:1;
+}
+.text{
+	color:white;
+	text-align:left;
+	margin-left:150px;
+	margin-top:480px;
+	z-index:9;
+	position: absolute;
+}
+.text h1{
+	font-size:80px;
+	color:orange;
+	z-index:9;
+}
+.text p{
+	font-size:25px;
+	z-index:9;
+}
+.learnmore{
+	width:160px;
+	height: 60px;
+	border-radius: 40px;
+	margin-top:20px;
+	transition: 1s;
+	border: 3px solid white;
+	z-index:9;
+}
+.learnmore:hover{
+	background-color:white;
+}
+.learnmore p{
+	color:white;
+	font-size:20px;
+	text-align: center;
+	line-height: 60px;
+}
+.learnmore p:hover{
+	color:orange;
+}
+.learnmore a{
+	text-decoration: none;
+	display: block;
+	color:orange;
+}
+.body1{
+	width:100%;
+	height: 800px;
+	background-color:black;
+	float:left;
+}
+.food{
+	width:80%;
+	height: 800px;
+/*	background-color:Red;*/
+	margin:0 auto;
+	margin-top:500px;
+}
+.food h1{
+	font-size:50px;
+	text-decoration:underline orange ;
+	margin-top:50px;
+	margin-bottom:25px;
+	color:white;
+}
+.box1{
+	width:30%;
+	height: 600px;
+	background-color:antiquewhite;
+	float:left;
+	background:url(../img/alexandra-kikot-2xlDA2-BYrI-unsplash.jpg);
+	background-size:cover;
+}
+.box1 p{
+	text-align: center;
+	color:white;
+	font-size:25px;
+	margin-top:605px;
+}
+.box2{
+	width:30%;
+	height: 600px;
+	background-color:antiquewhite;
+	float:left;
+	margin-left:5%;
+	margin-right:5%;
+	background:url(../img/pexels-rania-alhamed-2454533.jpg);
+	background-size:cover;
+}
+.box2 p{
+	text-align: center;
+	color:white;
+	font-size:25px;
+	margin-top:605px;
+}
+.box3{
+	width:30%;
+	height: 600px;
+	background-color:antiquewhite;
+	float:right;
+	background:url(../img/pille-riin-priske-U0PiIS4Uvkc-unsplash.jpg);
+	background-size:cover;
+}
+.box3 p{
+	text-align: center;
+	color:white;
+	font-size:25px;
+	margin-top:605px;
+}
+.body2{
+	width:100%;
+	height: 800px;
+/*	background-color:white;*/
+	float:left;
+}
+.food2{
+	width:80%;
+	height: 800px;
+/*	background-color:Red;*/
+	margin:0 auto;
+	margin-top:500px;
+}
+.food2 h1{
+	font-size:50px;
+	text-decoration:underline orange;
+	margin-top:50px;
+	margin-bottom:25px;
+	color:white;
+}
+.box4{
+	width:30%;
+	height: 600px;
+	background-color:antiquewhite;
+	float:left;
+	background:url(../img/pexels-patrick-porto-4116734.jpg);
+	background-size:cover;
+}
+.box4 p{
+	text-align: center;
+	color:white;
+	font-size:25px;
+	margin-top:605px;
+}
+.box5{
+	width:30%;
+	height: 600px;
+	background-color:antiquewhite;
+	float:left;
+	margin-left:5%;
+	margin-right:5%;
+	background:url(../img/pexels-chevanon-photography-312418.jpg);
+	background-size:cover;
+}
+.box5 p{
+	text-align: center;
+	color:white;
+	font-size:25px;
+	margin-top:605px;
+}
+.box6{
+	width:30%;
+	height: 600px;
+	background-color:antiquewhite;
+	float:right;
+	background:url(../img/vince-fleming-4Kgzk3Mt2aw-unsplash.jpg);
+	background-size:cover;
+}
+.box6 p{
+	text-align: center;
+	color:white;
+	font-size:25px;
+	margin-top:605px;
+}
+.body3{
+	width:100%;
+	height: 1400px;
+/*	background-color:white;*/
+	float:left;
+}
+.food3{
+	width:80%;
+	height: 800px;
+/*	background-color:Red;*/
+	margin:0 auto;
+	margin-top:500px;
+}
+.food3 h1{
+	font-size:50px;
+	text-decoration:underline orange;
+	margin-top:50px;
+	margin-bottom:25px;
+	color:white;
+}
+.box7{
+	width:30%;
+	height: 600px;
+	background-color:antiquewhite;
+	float:left;
+	background:url(../img/kobby-mendez-q54Oxq44MZs-unsplash.jpg);
+	background-size:cover;
+}
+.box7 p{
+	text-align: center;
+	color:white;
+	font-size:25px;
+	margin-top:605px;
+}
+.box8{
+	width:30%;
+	height: 600px;
+	background-color:antiquewhite;
+	float:left;
+	margin-left:5%;
+	margin-right:5%;
+	background:url(../img/food-photographer-david-fedulov-xZ_IK68a2Io-unsplash.jpg);
+	background-size:cover;
+}
+.box8 p{
+	text-align: center;
+	color:white;
+	font-size:25px;
+	margin-top:605px;
+}
+.box9{
+	width:30%;
+	height: 600px;
+	background-color:antiquewhite;
+	float:right;
+	background:url(../img/alex-loup-aX_ljOOyWJY-unsplash.jpg);
+	background-size:cover;
+}
+.box9 p{
+	text-align: center;
+	color:white;
+	font-size:25px;
+	margin-top:605px;
+}
+.body4{
+	width:100%;
+	height: 500px;
+	background-color:black;
+	float:left;
+}
+.text4{
+	width:50%;
+	height: 500px;
+/*	background-color:brown;*/
+	float:left;
+}
+.text4 h1{
+	font-size:50px;
+	color:orange;
+	margin-top:120px;
+	margin-left:100px;
+}
+.text4 p{
+	font-size:20px;
+	margin-right:50px;
+	margin-left:100px;
+	color:white;
+}
+.img4{
+	width:50%;
+	height:500px;
+	background-color:green;
+	float:right;
+	background:url(../img/pexels-igor-haritanovich-1695052.jpg);
+	background-size:cover;
+	position:relative;
+}
+.img4over{
+	width:100%;
+	height: 100%;
+	background-color:black;
+	position:absolute;
+	opacity: .2;
+}
+.body5{
+	width:100%;
+	height: 500px;
+	background-color:brown;
+	float:left;
+}
+.contact1{
+	width:50%;
+	height: 700px;
+	background-color:white;
+	float:left;
+}
+.contact1 h1{
+	margin-left:200px;
+	margin-top:50px;
+	font-size:50px;
+	transition-duration: 1s;
+}
+.contact1 h1:hover{
+	transform: scale(1.2);
+	color:orange;
+}
+.textbox input{
+	width:60%;
+	height: 30px;
+	font-size:20px;
+	margin-top:50px;
+	margin-left:200px;
+}
+.textbox2 input{
+	width:60%;
+	height: 30px;
+	font-size:20px;
+	margin-top:30px;
+	margin-left:200px;
+}
+.textbox3 input{
+	width:60%;
+	height: 200px;
+	font-size:20px;
+	margin-top:30px;
+	text-align: left;
+	margin-left:200px;
+}
+.textbox4{
+	width:150px;
+	height: 50px;
+	float:left;
+	margin-left:200px;
+	margin-top:30px;
+	border:2px solid orange;
+	border-radius:40px;
+	transition:1s;
+}
+.textbox4:hover{
+	background-color:white;
+	transform: scale(1.2);
+}
+.textbox4 p{
+	color:orange;
+	text-align: center;
+	font-size:18px;
+	line-height: 50px;
+}
+.textbox4 p a{
+	text-decoration: none;
+	color:orange;
+	transition-duration: 1s;
+}
+.textbox4 p a:hover{
+	color:orange;
+}
+.contact2{
+	width:50%;
+	height: 700px;
+	background-color:white;
+	float:right;
+}
+.contact2 h1{
+	font-size:50px;
+	margin-left:200px;
+	margin-top:50px;
+	transition-duration: 1s;
+}
+.contact2 h1:hover{
+	color:orange;
+	transform: scale(1.2);
+}
+.contact2 p{
+	font-size:20px;
+	margin-left:200px;
+}
+.gotop{
+	position:fixed;
+	width:50px;
+	height: 50px;
+	background-color:orange;
+	bottom:40px;
+	right:50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color:white;
+	font-size:22px;
+}
+.footer{
+	width:100%;
+	height: 200px;
+	background-color:black;
+	float:left;
+	margin-top:200px;
+}
+.footer p{
+	text-align:center;
+	font-size:20px;
+	line-height: 30px;
+	margin-top:80px;
+	color:white;
+}
